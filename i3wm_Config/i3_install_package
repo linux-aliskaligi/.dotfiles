@@ -1,0 +1,5 @@
+#Pacman
+i3 i3-gaps rofi dmenu awesome-terminal-fonts ttf-hack nitrogen mpd ttf-dejavu
+
+#Aur
+polybar pulseaudio-controls

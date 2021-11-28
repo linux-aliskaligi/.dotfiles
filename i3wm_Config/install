@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+DOTFILES="~/.dotfiles/"
+STOW_FOLDERS=(i3 nvim polybar alacritty)
+pushd $DOTFILES
+for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
+do
+    stow -D $folder
+    stow $folder
+done
+popd

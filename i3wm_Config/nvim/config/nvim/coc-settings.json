@@ -1,0 +1,26 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "css",
+    "scss",
+    "js",
+    "jade",
+    "pug",
+    "html"
+  ],
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "coc.preferences.diagnostic.virtualText": true,
+  "javascript.suggestionActions.enabled": false
+}

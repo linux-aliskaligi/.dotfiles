@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="light" label="Brightness">
+ <menu id="light -S" label="light -S">
+  <item label="1     ">
+    <action name="Execute">
+     <command>light -S 1</command>
+    </action>
+  </item>
+  <item label="2     ">
+    <action name="Execute">
+     <command>light -S 2</command>
+    </action>
+  </item>
+  <item label="3     ">
+    <action name="Execute">
+     <command>light -S 3</command>
+    </action>
+  </item>
+  <item label="4      ">
+    <action name="Execute">
+     <command>light -S 4</command>
+    </action>
+  </item>
+  <item label="5       ">
+    <action name="Execute">
+     <command>light -S 5</command>
+    </action>
+  </item>
+  <item label="6       ">
+    <action name="Execute">
+     <command>light -S 6</command>
+    </action>
+  </item>
+  <item label="7     ">
+    <action name="Execute">
+     <command>light -S 7</command>
+    </action>
+  </item>
+  <item label="8     ">
+    <action name="Execute">
+     <command>light -S 8</command>
+    </action>
+  </item>
+  <item label="9      ">
+    <action name="Execute">
+     <command>light -S 9</command>
+    </action>
+  </item>
+  <item label="10">
+    <action name="Execute">
+     <command>light -S 10</command>
+    </action>
+  </item>
+  <item label="11">
+    <action name="Execute">
+     <command>light -S 11</command>
+    </action>
+  </item>
+  <item label="12">
+    <action name="Execute">
+     <command>light -S 12</command>
+    </action>
+  </item>
+  <item label="13">
+    <action name="Execute">
+     <command>light -S 13</command>
+    </action>
+  </item>
+  <item label="14">
+    <action name="Execute">
+     <command>light -S 14</command>
+    </action>
+  </item>
+  <item label="15">
+    <action name="Execute">
+     <command>light -S 15</command>
+    </action>
+  </item>
+  <item label="20">
+    <action name="Execute">
+     <command>light -S 20</command>
+    </action>
+  </item>
+  <item label="21">
+    <action name="Execute">
+     <command>light -S 21</command>
+    </action>
+  </item>
+  <item label="22">
+    <action name="Execute">
+     <command>light -S 22</command>
+    </action>
+  </item>
+  <item label="23">
+    <action name="Execute">
+     <command>light -S 23</command>
+    </action>
+  </item>
+  <item label="23">
+    <action name="Execute">
+     <command>light -S 23</command>
+    </action>
+  </item>
+  <item label="24">
+    <action name="Execute">
+     <command>light -S 24</command>
+    </action>
+  </item>
+  <item label="25">
+    <action name="Execute">
+     <command>light -S 25</command>
+    </action>
+  </item>
+  <item label="30">
+    <action name="Execute">
+     <command>light -S 30</command>
+    </action>
+  </item>
+  <item label="35">
+    <action name="Execute">
+     <command>light -S 35</command>
+    </action>
+  </item>
+  <item label="40">
+    <action name="Execute">
+     <command>light -S 40</command>
+    </action>
+  </item>
+  <item label="45">
+    <action name="Execute">
+     <command>light -S 45</command>
+    </action>
+  </item>
+  <item label="50">
+    <action name="Execute">
+     <command>light -S 50</command>
+    </action>
+  </item>
+  <item label="55">
+    <action name="Execute">
+     <command>light -S 55</command>
+    </action>
+  </item>
+  <item label="60">
+    <action name="Execute">
+     <command>light -S 60</command>
+    </action>
+  </item>
+  <item label="65">
+    <action name="Execute">
+     <command>light -S 65</command>
+    </action>
+  </item>
+  <item label="70">
+    <action name="Execute">
+     <command>light -S 70</command>
+    </action>
+  </item>
+  <item label="75">
+    <action name="Execute">
+     <command>light -S 75</command>
+    </action>
+  </item>
+  <item label="80">
+    <action name="Execute">
+     <command>light -S 80</command>
+    </action>
+  </item>
+  <item label="85">
+    <action name="Execute">
+     <command>light -S 85</command>
+    </action>
+  </item>
+  <item label="90">
+    <action name="Execute">
+     <command>light -S 90</command>
+    </action>
+  </item>
+  <item label="95">
+    <action name="Execute">
+     <command>light -S 95</command>
+    </action>
+  </item>
+  <item label="100">
+    <action name="Execute">
+     <command>light -S 100</command>
+    </action>
+  </item>
+  </menu>
+</menu>
+
+<menu id="arkaplan" label="Arkaplan">
+<item label="Usta Splinter">
+  <action name="Execute">
+   <command>feh --bg-scale /home/fred/Resimler/usta_splinter.jpg</command>
+  </action>
+ </item>
+ <item label="2">
+  <action name="Execute">
+   <command>feh --bg-scale /home/fred/Resimler/dagmor.jpg</command>
+  </action>
+ </item>
+ <item label="Astronot">
+  <action name="Execute">
+   <command>feh --bg-scale /home/fred/Resimler/astronot4k.jpg</command>
+  </action>
+ </item>
+ <item label="4">
+  <action name="Execute">
+   <command>feh --bg-scale /home/fred/Resimler/dagkus.jpg</command>
+  </action>
+ </item>
+</menu>
+
+<menu id="alsamixer" label="Alsamixer">
+ <item label="Alsamixer Alacritty">
+  <action name="Execute">
+   <command>alacritty -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Cool Retro term">
+  <action name="Execute">
+   <command>cool-retro-term -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Gnome Terminal">
+  <action name="Execute">
+   <command>gnome-terminal -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Konsole">
+  <action name="Execute">
+   <command>konsole -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Lxterminal">
+  <action name="Execute">
+   <command>lxterminal -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Xfce Terminal">
+  <action name="Execute">
+   <command>xfce4-terminal -e alsamixer</command>
+  </action>
+ </item>
+ <item label="Alsamixer Urxvt">
+  <action name="Execute">
+   <command>urxvt -e alsamixer</command>
+  </action>
+ </item>
+</menu>
+ 
+
+<menu id="multimediaedit" label="Multimedia Edit">
+ <item label="Kdenlive">
+  <action name="Execute">
+   <command>kdenlive</command>
+  </action>
+ </item>
+ <item label="Simple Screen Recorder">
+  <action name="Execute">
+   <command>simplescreenrecorder</command>
+  </action>
+ </item>
+</menu>
+
+<menu id="conky" label="Conky">
+ <item label="Start Conky">
+    <action name="Execute">
+     <command>conky -c ~/.conky/.conkyrc</command> 
+    </action>
+ </item>
+ <item label="Kill Conky">
+    <action name="Execute">
+     <command>killall conky</command> 
+    </action>
+ </item>
+ <item label="Conky Manager">
+    <action name="Execute">
+     <command>conky-manager</command> 
+    </action>
+ </item>
+</menu>  
+
+<menu id="panelshells" label="Panel and Shells">
+ <menu id="apps-tint-menu" label="Tint">
+  <item label="Tint2Start">
+    <action name="Execute">
+      <command>tint2</command>
+    </action>
+  </item>
+  <item label="Tint2Conf">
+    <action name="Execute">
+     <command>tint2conf</command>
+    </action>
+  </item>
+  <item label="Tint2Kill">
+     <action name="Execute">
+      <command>killall tint2</command>
+     </action>
+   </item>
+</menu>  
+ <menu id="mate" label="Mate">
+   <item label="Mate Panel">
+     <action name="Execute">
+       <command>mate-panel</command>
+      </action>
+   </item>
+   <item label="Kill Mate Panel">
+     <action name="Execute">
+      <command>killall mate-panel</command>
+     </action>
+   </item>
+ </menu>  
+ <menu id="xfce" label="XFCE">
+   <item label="XFCE4 Panel">
+     <action name="Execute">
+       <command>xfce4-panel</command>
+      </action>
+   </item>
+   <item label="Kill XFCE4 Panel">
+     <action name="Execute">
+      <command>killall xfce4-panel</command>
+     </action>
+   </item>
+ </menu>
+ <menu id="plank" label="Plank">
+  <item label="Plank">
+   <action name="Execute">
+    <command>plank</command>
+   </action>
+  </item>
+  <item label="Kill Plank">
+   <action name="Execute">
+    <command>killall plank</command>
+   </action>
+  </item>
+ </menu>
+ <menu id="kde" label="Plasma">
+   <item label="Plasma Shell">
+     <action name="Execute">
+       <command>plasmashell</command>
+      </action>
+   </item>
+   <item label="Kill Plasma Shell">
+     <action name="Execute">
+      <command>killall plasmashell</command>
+     </action>
+   </item>
+</menu>
+</menu>  
+
+<menu id="execute" label="Execute">
+   <item label="Order 66">
+     <action name="Execute">
+       <command>poweroff</command>
+      </action>
+    </item>
+</menu>
+    
+<menu id="apps-accessories-menu" label="Accessories">
+  <item label="Calculator">
+    <action name="Execute">
+      <command>gnome-calculator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Character Map">
+    <action name="Execute">
+      <command>gnome-character-map</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Ark File Archiver">
+    <action name="Execute">
+      <command>ark</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-editors-menu" label="Editors">
+  <item label="GVim">
+    <action name="Execute">
+      <command>gvim</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>GVim</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Emacs">
+    <action name="Execute">
+      <command>emacs</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Emacs</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="GEdit">
+    <action name="Execute">
+      <command>gedit</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Kate">
+    <action name="Execute">
+      <command>kate</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Kwrite">
+    <action name="Execute">
+      <command>kwrite</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-term-menu" label="Terminals">
+  <item label="Alacritty">   
+    <action name="Execute">
+      <command>alacritty</command>
+    </action>
+  </item>
+    <item label="Cool Retro Term">
+    <action name="Execute">
+     <command>cool-retro-term</command>
+   </action>
+  </item>
+  <item label="Gnome Terminal">
+    <action name="Execute">
+      <command>gnome-terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Konsole">
+    <action name="Execute">
+      <command>konsole</command>
+      <startupnotify>	
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Lxterminal">
+    <action name="Execute">
+      <command>lxterminal</command>
+    </action>
+  </item>
+  <item label="Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Urxvt">
+    <action name="Execute">
+      <command>urxvt</command>
+    </action>
+  </item>
+ <menu id="fish" label="Fish">
+  <item label="Fish Alacritty">
+    <action name="Execute">
+      <command>alacritty -e fish</commmand>
+    </action>
+  </item>
+  <item label="Fish Cool Retro Term">
+    <action name="Execute">
+      <command>cool-retro-term -e fish</commmand>
+    </action>
+  </item>
+  <item label="Fish Gnome Terminal">
+    <action name="Execute">
+      <command>gnome-terminal -e fish</commmand>
+    </action>
+  </item>
+    <item label="Fish Konsole">
+    <action name="Execute">
+      <command>konsole -e fish</commmand>
+    </action>
+  </item>
+  <item label="Fish Lxterminal">
+    <action name="Execute">
+      <command>lxterminal -e fish</commmand>
+    </action>
+  </item>
+  <item label="Fish Urxvt">
+    <action name="Execute">
+      <command>urxvt -e fish</commmand>
+    </action>
+  </item>
+  <item label="Fish Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal -e fish</commmand>
+    </action>
+  </item>
+ </menu>
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <menu id="browser" label="Browsers">
+  <item label="Brave(brave-browser command)">
+    <action name="Execute">
+      <command>brave-browser</command>
+    </action>
+  </item>
+  <item label="Brave(brave command)">
+    <action name="Execute">
+      <command>brave</command>
+    </action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute">
+      <command>firefox</command>
+    </action>
+  </item>
+ </menu>
+ <menu id="terminal-browser" label="Terminal Browsers">
+ <menu id="lynx-term" label="Lynx">
+  <item label="Lynx Alacritty">
+    <action name="Execute">
+      <command>alacritty -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Cool Retro Term">
+    <action name="Execute">
+      <command>cool-retro-term -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Gnome Terminal">
+    <action name="Execute">
+      <command>gnome-terminal -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Konsole">
+    <action name="Execute">
+      <command>konsole -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Lxterminal">
+    <action name="Execute">
+      <command>lxterminal -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Urxvt">
+    <action name="Execute">
+      <command>urxvt -e lynx</command>
+    </action>
+  </item>
+  <item label="Lynx Xfce Terminal">
+   <action name="Execute">
+      <command>xfce4-terminal -e lynx</command>
+    </action>
+  </item>
+ </menu>
+ </menu>
+</menu>
+
+<menu id="taskman" label="Task Managers">
+  <item label="Gnome System Monitor">
+   <action name="Execute">
+    <command>gnome-system-monitor</command>
+   </action>
+  </item>
+  <item label="Ksysguard">
+   <action name="Execute">
+    <command>ksysguard</command>
+   </action>
+  </item>
+  <item label="Lxtask">
+   <action name="Execute">
+    <command>lxtask</command>
+   </action>
+  </item>
+</menu>
+
+<menu id="apps-office-menu" label="Office">
+  <item label="OpenOffice Base">
+    <action name="Execute">
+      <command>ooffice -base</command>
+    </action>
+  </item>
+  <item label="OpenOffice Calc">
+    <action name="Execute">
+      <command>ooffice -calc</command>
+    </action>
+  </item>
+  <item label="OpenOffice Draw">
+    <action name="Execute">
+      <command>ooffice -draw</command>
+    </action>
+  </item>
+  <item label="OpenOffice Impress">
+    <action name="Execute">
+      <command>ooffice -impress</command>
+    </action>
+  </item>
+  <item label="OpenOffice Math">
+    <action name="Execute">
+      <command>ooffice -math</command>
+    </action>
+  </item>
+  <item label="OpenOffice Printer Administration">
+    <action name="Execute">
+      <command>ooffice-printeradmin</command>
+    </action>
+  </item>
+  <item label="OpenOffice Writer">
+    <action name="Execute">
+      <command>ooffice -writer</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+ <menu id="music" label="Music">
+  <item label="Rhythmbox">
+    <action name="Execute">
+      <command>rhythmbox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="DeaDBeef">
+    <action name="Execute">
+      <command>deadbeef</command>       
+    </action>
+  </item>
+ <menu id="cmus" label="Cmus">
+ <item label="Cmus Alacritty">
+   <action name ="Execute">
+    <command>alacritty -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Cool Retro Term">
+   <action name="Execute">
+    <command>cool-retro-term -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Gnome-terminal">
+   <action name ="Execute">
+    <command>gnome-terminal -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Konsole">
+   <action name ="Execute">
+    <command>konsole -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Lxterm">
+   <action name ="Execute">
+    <command>lxterminal -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Xfce Terminal">
+   <action name ="Execute">
+    <command>xfce4-terminal -e cmus</command>
+   </action>
+  </item>
+  <item label="Cmus Urxvt">
+   <action name ="Execute">
+    <command>urxvt -e cmus</command>
+   </action>
+  </item>
+ </menu>
+ </menu>
+</menu>
+   
+<menu id="apps-fileman-menu" label="File Managers">
+  <menu id="terminal-fileman-menu" label="Terminal File Manager">
+   <menu id ="mc-terminal" label="Mc">
+   <item label="Mc Alacritty">
+    <action name="Execute">
+     <command>alacritty -e mc</command>
+    </action>
+  </item>
+  <item label="Mc Cool Retro Term">
+    <action name="Execute">
+     <command>cool-retro-term -e mc</command>
+    </action>
+  </item>
+  <item label="Mc Gnome Terminal">
+    <action name="Execute">
+     <command>gnome-terminal -e mc</command>
+    </action>
+  </item>
+  <item label="Mc Konsole">
+    <action name="Execute">
+     <command>konsole -e mc</command>
+    </action>
+  </item>
+  <item label="Mc Lxterminal">
+    <action name="Execute">
+     <command>lxterminal-e mc</command>
+    </action>
+  </item>
+  <item label="Mc Urxvt">
+    <action name="Execute">
+     <command>urxvt -e mc</command>
+    </action>
+  </item>
+  <item label="Mc Xfce Terminal">
+    <action name="Execute">
+     <command>xfce4-terminal -e mc</command>
+    </action>
+  </item>
+  </menu>
+   <menu id ="ranger-terminal" label="Ranger">
+   <item label="Ranger Alacritty">
+    <action name="Execute">
+     <command>alacritty -e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Cool Retro Term">
+    <action name="Execute">
+     <command>cool-retro-term -e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Gnome Terminal">
+    <action name="Execute">
+     <command>gnome-terminal -e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Konsole">
+    <action name="Execute">
+     <command>konsole -e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Lxterminal">
+    <action name="Execute">
+     <command>lxterminal-e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Urxvt">
+    <action name="Execute">
+     <command>urxvt -e ranger</command>
+    </action>
+  </item>
+  <item label="Ranger Xfce Terminal">
+    <action name="Execute">
+     <command>xfce4-terminal -e ranger</command>
+    </action>
+  </item>
+  </menu>
+  <menu id ="lf-terminal" label="Lf">
+   <item label="Lf Alacritty">
+    <action name="Execute">
+     <command>alacritty -e lf</command>
+    </action>
+  </item>
+  <item label="Lf Cool Retro Term">
+    <action name="Execute">
+     <command>cool-retro-term -e lf</command>
+    </action>
+  </item>
+  <item label="Lf Gnome Terminal">
+    <action name="Execute">
+     <command>gnome-terminal -e lf</command>
+    </action>
+  </item>
+  <item label="Lf Konsole">
+    <action name="Execute">
+     <command>konsole -e lf</command>
+    </action>
+  </item>
+  <item label="Lf Lxterminal">
+    <action name="Execute">
+     <command>lxterminal-e lf</command>
+    </action>
+  </item>
+  <item label="Lf Urxvt">
+    <action name="Execute">
+     <command>urxvt -e lf</command>
+    </action>
+  </item>
+  <item label="Lf Xfce Terminal">
+    <action name="Execute">
+     <command>xfce4-terminal -e lf</command>
+    </action>
+  </item>
+  </menu>
+   </menu>
+  <item label="Caja">
+    <action name="Execute">
+     <command>caja</command>
+    </action>
+  </item>
+  <item label="Nautilus">
+    <action name="Execute">
+      <command>nautilus --no-desktop --browser</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Nemo">
+    <action name="Execute">
+     <command>nemo</command>
+    </action>
+  </item>
+  <item label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+  <item label="Gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gwenview">
+    <action name="Execute">
+      <command>gwenview</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Gnome Control Center">
+    <action name="Execute">
+      <command>gnome-control-center</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="KDE Control Center">
+    <action name="Execute">
+      <command>kcontrol</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  
+  <menu id="panelshells"/>
+  <separator label="Applications" />
+  <item label="Dmenu(dmenu__run)">
+    <action name="Execute">
+     <command>dmenu_run</command> 
+    </action>
+  </item>
+  <menu id="conky"/>
+  <item label="LX Appearance">
+    <action name="Execute">
+     <command>lxappearance</command>
+    </action>
+  </item>
+  <item label="Gnome Screenshot Tool">
+    <action name="Execute">
+     <command>gnome-screenshot --interactive</command> 
+    </action>
+  </item>
+  <menu id="apps-accessories-menu"/>
+  <menu id="arkaplan"/>
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-fileman-menu"/>
+  <menu id="apps-graphics-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-office-menu"/>
+  <menu id="apps-multimedia-menu"/>
+  <menu id="multimediaedit"/>
+  <menu id="taskman"/>
+  <menu id="apps-term-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <separator label="Brightness"/>
+  <menu id="light"/>
+  <separator label="Sound"  />
+  <item label="PavuControl">
+    <action name="Execute">
+      <command>pavucontrol</command>
+    </action>
+   </item>
+  <menu id="alsamixer"/>
+  <separator />
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+    </item>
+  <menu id="execute"/>
+</menu>
+
+</openbox_menu>
