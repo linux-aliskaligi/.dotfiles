@@ -529,6 +529,15 @@ for_window [instance="variety"] floating disable
 
 
 for_window [title="Copying"] floating enable
+for_window [title="Opening - Microsoft PowerPoint"] floating enable
+for_window [title="Microsoft PowerPoint"] floating enable
+for_window [title="Opening - Microsoft Word"] floating enable
+for_window [title="Microsoft Word"] floating enable
+for_window [title="Opening - Microsoft Excel"] floating enable
+for_window [title="Microsoft Excel"] floating enable
+for_window [title="Opening - Microsoft OneNote"] floating enable
+for_window [title="Microsoft OneNote"] floating enable
+for_window [title="System Monitor"] floating enable
 for_window [title="Friends List"] floating enable
 for_window [title="Deleting"] floating enable
 for_window [title="Moving"] floating enable
